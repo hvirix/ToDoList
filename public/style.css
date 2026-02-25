@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(135deg, rgb(239, 197, 168) 0%, rgba(255, 112, 179, 0.94) 100%);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.91);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(220, 204, 204, 0.94);
+    width: 350px;
+    position: relative;
+    backdrop-filter: blur(5px);
+}
+
+h1 { text-align: center; color: #f60e7b; position: relative; z-index: 2; }
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #e60772;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    background: #ff70b3;
+    color: #f8f6f6;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover { background: #e60772; }
+
+ul { list-style: none; padding: 0; position: relative; z-index: 2; }
+
+li {
+    background: rgba(255, 112, 179, 0.94);
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } }
+
+
+.decor-img {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.top-right {
+    top: -40px;
+    right: -40px;
+    transform: rotate(15px);
+}
+
+
+
+.bottom-left {
+    bottom: -25px;
+    left: -50px;
+}
