@@ -5,8 +5,8 @@
 It serves as a practical demonstration of front-end development skills, specifically focusing on DOM manipulation and advanced CSS positioning techniques.
 
 ### Preview
-<img width="922" height="832" alt="image" src="https://github.com/user-attachments/assets/492a7577-078a-40e2-bca8-2f0a36a44624" />
 
+<img width="892" height="831" alt="image" src="https://github.com/user-attachments/assets/c2273ce3-3398-4313-bae4-88f34aba68a1" />
 
 
 ### Quick Start
